@@ -1,0 +1,40 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	background: url(laptop.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color:yellow;
+}
+.buffer{
+	height: 50px
+}
+hr{
+	border-color: orange;
+	border-width: 3px;
+	max-width: 65px
+}
+.btn{
+	border-radius: 300px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.btn-primary{
+	background-color: orange;
+	border-color: orange;
+}
+.btn-primary:hover{
+	background-color: pink;
+	border-color: pink;
+	border-width: 5px;
+}
+.btn-xl{
+	padding: 1rem 1rem;
+	
+}
